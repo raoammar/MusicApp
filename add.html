@@ -1,0 +1,36 @@
+<html>
+<head><link rel="stylesheet" type="text/css" href="myStyle.css"></head>
+<body padding:10px;bgcolor="#D3D3D3">
+<div id="header">
+<h2>Album Record</h2>
+
+<h6><a href='index.php'> HOME</a></h6>
+
+</div>
+<div id ="Content">
+
+
+<p>Add Album</p>
+
+<form name="form1" action="addProcess.php" method="POST">
+Album Name: <input type="text" name="album_name"><br>
+Album Genre: <input type="text" name="album_genre"><br>
+Album Year: <input type="text" name="album_year"><br>
+Album Cover: <input type="text" name="album_cover"><br>
+Artist Name: <input type="text" name="artist_name"> <br>
+Artist Website: <input type="text" name="artist_web"><br>
+<input type="submit" Value="Submit">
+</form>
+<p>Delete Album</p>
+<form name="form1" action="del.php" method="POST">
+Album Name: <input type="text" name="album_name"><br>
+Artist Name: <input type="text" name="artist_name"><br>
+
+<input type="submit" Value="Submit">
+</form>
+</div>
+<div id="footer">
+Copy Rights
+</div>
+</body>
+</html>
